@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CheckUtilsTest {
-
     @Test
     public void isAnyEmpty() {
         assertTrue(CheckUtils.isAnyEmpty("123", "456"));
